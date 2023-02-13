@@ -5,7 +5,8 @@ module.exports = {
   theme: {
     extend: { fontFamily: {
       'Barlow': ['"Barlow"', 'sans-serif'],
-      'Roboto': ['"Roboto Slab"', 'serif']
+      'Roboto': ['"Roboto Slab"', 'serif'],
+      'Libre': ['"Libre Baskerville"', 'serif']
     }},
     letterSpacing: {
       '1': '0em',
