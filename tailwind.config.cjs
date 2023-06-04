@@ -15,5 +15,5 @@ module.exports = {
       '4': '0.1em',
     },
   },
-  plugins: [],
+  plugins: [require("daisyui")],
 }

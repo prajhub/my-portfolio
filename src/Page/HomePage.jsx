@@ -4,6 +4,7 @@ import NavBar from '../Components/NavBar'
 import Work from '../Components/Work'
 import AboutMe from '../Components/AboutMe'
 import Socials from '../Components/Socials'
+import Footer from '../Components/Footer'
 
 const HomePage = () => {
   return (
@@ -14,6 +15,8 @@ const HomePage = () => {
         <Work/>
         <AboutMe/>
         <Socials/>
+        <Footer/>
+        
     </>
   )
 }
