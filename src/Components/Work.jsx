@@ -7,7 +7,7 @@ const Work = () => {
             <section className='px-4 py-16  sm:max-w-xl md:max-w-full lg:max-w-[1400px] mx-auto md:px-24 lg:px-8 lg:py-20'>
                 <div className='grid gap-48 mx-auto sm:grid-cols-2 lg:grid-cols-3 lg:max-w-[1400px] '>
                     <div className=' lg:w-[350px]'>
-                        <img data-aos='fade-down' data-aos-delay='400' className="object-cover  w-full h-72 " src='src\assets\work-1.png' alt="Projects"/>
+                        <img data-aos='fade-down' data-aos-delay='400' className="object-cover  w-full h-72 " src='https://res.cloudinary.com/dhngfjx6o/image/upload/v1685891309/work-1_a3n1iv.png' alt="Projects"/>
                         <div className="flex flex-col gap-4 justify-center mt-8">
                             <p data-aos='fade-right' data-aos-delay='500' className="text-2xl font-extrabold font-Libre">Takeatrip</p>
 
@@ -25,7 +25,7 @@ const Work = () => {
                     
                     {/* Next Project */}
                     <div className=' lg:w-[350px]'>
-                        <img data-aos='fade-down' data-aos-delay='400' className="object-cover  w-full h-72 " src='src\assets\work-1.png' alt="Projects"/>
+                        <img data-aos='fade-down' data-aos-delay='400' className="object-cover  w-full h-72 " src='https://res.cloudinary.com/dhngfjx6o/image/upload/v1685891309/work-1_a3n1iv.png' alt="Projects"/>
                         <div className="flex flex-col gap-4 justify-center mt-8">
                             <p data-aos='fade-right' data-aos-delay='500' className="text-2xl font-extrabold font-Libre">Takeatrip</p>
 
@@ -43,7 +43,7 @@ const Work = () => {
 
                      {/* Next Project */}
                      <div className=' lg:w-[350px]'>
-                        <img data-aos='fade-down' data-aos-delay='400' className="object-cover  w-full h-72 " src='src\assets\work-1.png' alt="Projects"/>
+                        <img data-aos='fade-down' data-aos-delay='400' className="object-cover  w-full h-72 " src='https://res.cloudinary.com/dhngfjx6o/image/upload/v1685891309/work-1_a3n1iv.png' alt="Projects"/>
                         <div className="flex flex-col gap-4 justify-center mt-8">
                             <p data-aos='fade-right' data-aos-delay='500' className="text-2xl font-extrabold font-Libre">Takeatrip</p>
 

@@ -9,8 +9,8 @@ const Socials = () => {
                     <div className='flex flex-col gap-3 items-center'>
                         <h1 data-aos='fade-down' data-aos-delay='500' className=' md:visible md:text-5xl text-3xl font-bold font-Libre '>Don't be a stranger.</h1>
                         <span data-aos='fade-down' data-aos-delay='600' className=' hidden md:inline text-center tracking-1 mt-3'>I'm an active member on (some of) the social medias. Feel free to follow me, comment, or message me. I am excited to hear from you. Give me a shout.</span>
-                        <p data-aos='fade-down' data-aos-delay='700'  className=' hidden md:inline tracking-1'>Or you can email me at
-                            <span className=' text-md text-[#68c8ce] underline hover:cursor-pointer hover:text-black text-center'>pzlmagar@gmail.com</span>
+                        <p data-aos='fade-down' data-aos-delay='700'  className=' hidden md:inline tracking-1'>Or you can email me at 
+                            <span className=' text-md text-[#68c8ce] underline ml-1 hover:cursor-pointer hover:text-black text-center'>pzlmagar@gmail.com</span>
                         </p>
 
                         <div className=' w-full items-center md:p-5 md:mt-16'>

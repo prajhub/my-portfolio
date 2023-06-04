@@ -11,7 +11,7 @@ const Footer = () => {
         <div class="mb-10 w-full">
           <a href="javascript:void(0)" class="mb-6 inline-block max-w-[160px]">
             <img
-              src="src\assets\pm-logo-zip-file\png\logo-no-background.png"
+              src="https://res.cloudinary.com/dhngfjx6o/image/upload/v1685891219/logo-no-background_steplh.png"
               alt="logo"
               className="max-w-full"
             />

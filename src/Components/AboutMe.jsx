@@ -6,7 +6,7 @@ const AboutMe = () => {
         <div class="container mx-auto">
     <div class="grid grid-cols-1 md:grid-cols-2 h-screen">
       <div class="max-h-96 md:h-screen">
-        <img class="w-screen h-screen object-cover object-top" src="src\assets\about-me-landing.png" alt=""/>
+        <img class="w-screen h-screen object-cover object-top" src="https://res.cloudinary.com/dhngfjx6o/image/upload/v1685891353/about-me-landing_bkvrid.png" alt=""/>
       </div>
       <div class="flex bg-[#feadac] p-10">
         <div class="mb-auto mt-auto max-w-2xl ">
