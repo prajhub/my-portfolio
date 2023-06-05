@@ -1,6 +1,27 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom';
 
 const Footer = () => {
+
+    const navigate = useNavigate()
+
+  const redirectToFacebook = () => {
+    window.location.href = 'https://www.facebook.com/prazol.magar.777';
+  };
+
+  const redirectToLinkedin = () => {
+    window.location.href = 'https://www.linkedin.com/in/prajwal-thapa-magar-65933b212/';
+  };
+
+  const redirectToTwitter = () => {
+    window.location.href = 'https://www.facebook.com/prazol.magar.777';
+  };
+
+  const redirectToGithub = () => {
+    window.location.href = 'https://github.com/prajhub';
+  };
+
+
   return (
    <>
     
@@ -24,12 +45,12 @@ const Footer = () => {
          
           <ul className=' tracking-4 ml-10 md:ml-0'>
             <li>
-              <a
-                href="javascript:void(0)"
+              <span
+                onClick={() => navigate('/work')}
                 class="text-body-colorhover:text-gray-700 mb-2 inline-block text-base leading-loose"
               >
                Work
-              </a>
+              </span>
             </li>
             <li>
               <a
@@ -48,36 +69,36 @@ const Footer = () => {
          
           <ul className=' tracking-4 ml-10 md:ml-0'>
             <li>
-              <a
-                href="javascript:void(0)"
-                class="text-body-color hover:text-gray-700 mb-2 inline-block text-base leading-loose"
+              <span
+                onClick={redirectToLinkedin}
+                class="text-body-color hover:cursor-pointer hover:text-gray-700 mb-2 inline-block text-base leading-loose"
               >
               Linkendin
-              </a>
+              </span>
             </li>
             <li>
-              <a
-                href="javascript:void(0)"
-                class="text-body-color hover:text-gray-700 mb-2 inline-block text-base leading-loose"
+              <span
+               onClick={redirectToGithub}
+                class="text-body-color hover:cursor-pointer hover:text-gray-700 mb-2 inline-block text-base leading-loose"
               >
                GitHub
-              </a>
+              </span>
             </li>
             <li>
-              <a
-                href="javascript:void(0)"
-                class="text-body-color hover:text-gray-700 mb-2 inline-block text-base leading-loose"
+              <span
+              onClick={redirectToTwitter}
+                class="text-body-color hover:cursor-pointer hover:text-gray-700 mb-2 inline-block text-base leading-loose"
               >
                 Twitter
-              </a>
+              </span>
             </li>
             <li>
-              <a
-                href="javascript:void(0)"
-                class="text-body-color hover:text-gray-700 mb-2 inline-block text-base leading-loose"
+              <span
+               onClick={redirectToFacebook}
+                class="text-body-color hover:cursor-pointer hover:text-gray-700 mb-2 inline-block text-base leading-loose"
               >
                 Facebook
-              </a>
+              </span>
             </li>
           </ul>
         </div>
