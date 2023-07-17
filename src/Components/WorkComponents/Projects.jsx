@@ -45,9 +45,7 @@ const Projects = () => {
         </div>
                             <div className='flex flex-col gap-2 mt-4'>
                                 <button onClick={redirectToTakeatrip} data-aos='fade-right' data-aos-delay='700'  className='inline-flex w-[160px] items-center justify-center px-8 py-2 text-base font-medium text-center text-white border border-black bg-black  hover:bg-[#000B3A] focus:ring-4 focus:ring-gray-10'>View Project</button>
-                                <span onClick={() => navigate('/work')} data-aos='fade-right' data-aos-delay='700' className='underline tracking-4 hover:cursor-pointer'>
-                                    View All Projects
-                                </span>
+                                
                             </div>
                         </div>
                     </div>
@@ -66,9 +64,7 @@ const Projects = () => {
                             
                             <div className='flex flex-col gap-2 mt-4'>
                                 <button onClick={redirectToJustDoit} data-aos='fade-right' data-aos-delay='700'  className='inline-flex w-[160px] items-center justify-center px-8 py-2 text-base font-medium text-center text-white border border-black bg-black  hover:bg-[#000B3A] focus:ring-4 focus:ring-gray-10'>View Project</button>
-                                <span onClick={() => navigate('/work')} data-aos='fade-right' data-aos-delay='700' className='underline tracking-4 hover:cursor-pointer'>
-                                    View All Projects
-                                </span>
+                                
                             </div>
                         </div>
                     </div>
@@ -87,9 +83,7 @@ const Projects = () => {
                             
                             <div className='flex flex-col gap-2 mt-4'>
                                 <button onClick={redirectToStorex} data-aos='fade-right' data-aos-delay='700'  className='inline-flex w-[160px] items-center justify-center px-8 py-2 text-base font-medium text-center text-white border border-black bg-black  hover:bg-[#000B3A] focus:ring-4 focus:ring-gray-10'>View Project</button>
-                                <span onClick={() => navigate('/work')} data-aos='fade-right' data-aos-delay='700' className='underline tracking-4 hover:cursor-pointer'>
-                                    View All Projects
-                                </span>
+                                
                             </div>
                         </div>
                     </div>
@@ -109,9 +103,7 @@ const Projects = () => {
                             
                             <div className='flex flex-col gap-2 mt-4'>
                                 <button onClick={redirectToDirtySprite} data-aos='fade-right' data-aos-delay='700'  className='inline-flex w-[160px] items-center justify-center px-8 py-2 text-base font-medium text-center text-white border border-black bg-black  hover:bg-[#000B3A] focus:ring-4 focus:ring-gray-10'>View Project</button>
-                                <span onClick={() => navigate('/work')} data-aos='fade-right' data-aos-delay='700' className='underline tracking-4 hover:cursor-pointer'>
-                                    View All Projects
-                                </span>
+                                
                             </div>
                         </div>
                     </div>
@@ -129,9 +121,7 @@ const Projects = () => {
                             
                             <div className='flex flex-col gap-2 mt-4'>
                                 <button onClick={redirectToMusicSansar} data-aos='fade-right' data-aos-delay='700'  className='inline-flex w-[160px] items-center justify-center px-8 py-2 text-base font-medium text-center text-white border border-black bg-black  hover:bg-[#000B3A] focus:ring-4 focus:ring-gray-10'>View Project</button>
-                                <span onClick={() => navigate('/work')} data-aos='fade-right' data-aos-delay='700' className='underline tracking-4 hover:cursor-pointer'>
-                                    View All Projects
-                                </span>
+                                
                             </div>
                         </div>
                     </div>
@@ -142,14 +132,12 @@ const Projects = () => {
                             <p data-aos='fade-right' data-aos-delay='500' className="text-2xl font-extrabold font-Libre">Pandora Fridge</p>
                             <div className="md:h-28"> 
             <p data-aos='fade-right' data-aos-delay='600' className="text-sm font-md tracking-wide leading-relaxed text-gray-800">
-            PandoraFridge is a Work-In-Progress T3 Stack app that allows user to log in via Discord and add foods in a fridge with timer.
+            PandoraFridge is a Work-In-Progress T3 Stack <span className='text-black italic '> (Next.js, Typescript, tRPC) </span> app that allows user to log in via Discord and add foods in a fridge with timer.
             </p>
         </div>
                             <div className='flex flex-col gap-2 mt-4'>
                                 <button onClick={redirectToTakeatrip} data-aos='fade-right' data-aos-delay='700'  className='inline-flex w-[160px] items-center justify-center px-8 py-2 text-base font-medium text-center text-white border border-black bg-black  hover:bg-[#000B3A] focus:ring-4 focus:ring-gray-10'>View Project</button>
-                                <span onClick={() => navigate('/work')} data-aos='fade-right' data-aos-delay='700' className='underline tracking-4 hover:cursor-pointer'>
-                                    View All Projects
-                                </span>
+                                
                             </div>
                         </div>
                     </div>
