@@ -33,7 +33,7 @@ const Work = () => {
                             <p data-aos='fade-right' data-aos-delay='500' className="text-2xl font-extrabold font-Libre">Pandora Fridge</p>
                             <div className="md:h-28"> 
             <p data-aos='fade-right' data-aos-delay='600' className="text-sm font-md tracking-wide leading-relaxed text-gray-800">
-            PandoraFridge is a Work-In-Progress T3 Stack app that allows user to log in via Discord and add foods in a fridge with timer.
+            PandoraFridge is a Work-In-Progress T3 Stack <span className='text-black italic '> (Next.js, Typescript, tRPC) </span> app that allows user to log in via Discord and add foods in a fridge with timer.
             </p>
         </div>
                             <div className='flex flex-col gap-2 mt-4'>
